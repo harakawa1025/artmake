@@ -1,0 +1,484 @@
+@charset "UTF-8";
+/* CSS Document */
+.header {
+  position: fixed;
+  z-index: 9999;
+}
+.section-top__main-image {
+  background-color: #f7edea;
+}
+.top-img-pc {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.top-img-sp {
+  display: none;
+}
+@media(max-width: 750px) {
+  .top-img-pc {
+    display: none;
+  }
+  .top-img-sp {
+    display: block;
+    width: 100%;
+  }
+}
+.first-time-button {
+  height: 155px;
+  background-color: #fff;
+  position: static;
+}
+.first-time-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.first-time-button p {
+  font-size: 2vw;
+  padding: 10px;
+  margin-right: 40px;
+  color: #948c8c;
+  font-family: "ヒラギノ明朝 Pro";
+  line-height: 1.5;
+}
+.first-time-button h2 {
+  font-size: 1.9vw;
+  padding: 25px 40px 25px 40px;
+  background-color: #e5c5ba;
+  color: #fff;
+  font-family: "ヒラギノ明朝 Pro";
+  border-radius: 10px;
+}
+@media(max-width: 750px) {
+  .first-time-button {
+    height: auto;
+  }
+  .first-time-button p {
+    font-size: 3vw;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .first-time-button h2 {
+    font-size: 2.9vw;
+    padding: 3%;
+    display: inline-block;
+  }
+}
+#about-artmake {
+  height: 40%;
+  background-color: #f7edea;
+}
+.section-title {
+  font-family: "ヒラギノ明朝 Pro";
+  font-size: 36px;
+  color: #a49f9f;
+  padding-top: 145px;
+  text-align: center;
+  margin: 0;
+}
+.section-title-text {
+  display: inline-block;
+  position: relative;
+}
+.section-title-text p {
+  position: absolute;
+  width: 100%;
+  white-space: nowrap;
+  font-family: "Savoye LET";
+  font-size: 72px;
+  color: #a49f9f;
+  margin: 0;
+  opacity: 0.2;
+  font-style: oblique;
+  display: inline-block;
+  transform: rotate(-20deg);
+  left: -70%;
+}
+.about-img {
+  padding-top: 60px;
+  width: 45%;
+}
+.about-artmake-contents {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.about-contents {
+  display: flex;
+  position: relative;
+}
+.about-contents img {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+.about-text {
+  font-size: 1.6vw;
+  line-height: 1.7;
+  padding-left: 5%;
+  padding-top: 50px;
+  padding: 60px auto 60px 200px;
+  color: #746a6a;
+}
+.about-text h4 {
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.about-text p {
+  margin: 0;
+  padding: 0 30px 60px 150px;
+}
+.about-artmake-img-sp {
+  display: none;
+}
+@media(max-width: 750px) {
+  .about-artmake {
+    background-color: none;
+    position: relative;
+  }
+  .about-img {
+    display: none;
+  }
+  .about-artmake-img-sp {
+    display: block;
+    width: 40%;
+    max-width: 180px;
+    max-height: 230px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    opacity: 50%;
+    z-index: 10;
+  }
+  .about-text {
+    z-index: 100;
+    font-size: 3vw;
+    padding-top: 5%;
+  }
+  .section-title {
+    display: block;
+    padding-top: 12%;
+  }
+  .section-title-text p {
+    font-size: 8.5vw;
+    display: inline-block;
+    padding: 0;
+  }
+  .section-title-text {
+    font-size: 4.5vw;
+  }
+}
+.three-confidence, .money-plan__img-pc, .voice-img, .menu-image {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 70px;
+}
+.three-confidence-sp, .menu-image-sp, .voice-img-sp, .money-plan__img-sp {
+  display: none;
+}
+#myBtn-1,#myBtn-2,#myBtn-3 {
+  display: none;
+}
+.modal-content {
+    display: none;
+}
+.modal-content__image{
+  width: 100%;
+}
+@media(max-width: 750px) {
+  .three-confidence, .menu-image, .voice-img, .money-plan__img-pc {
+    display: none;
+  }
+  .three-confidence-sp, .menu-image-sp, .voice-img-sp, .money-plan__img-sp {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+  }
+  #menu {
+    position: relative;
+  }
+  #myBtn-1 p,#myBtn-2 p, #myBtn-3 p {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5vw;
+  }
+  #myBtn-1 {
+     top: 30%;
+    right: 14%;
+  }
+  #myBtn-2 {
+    top: 57%;
+    right: 21%;
+  }
+  #myBtn-3 {
+    top: 87%;
+    right: 21%;
+  }
+  #myBtn-1,#myBtn-2,#myBtn-3 {
+    position: absolute;
+    display: block;
+    font-size: 3vw;
+    border: none; /* 枠線を消す */
+    outline: none; /* クリックしたときに表示される枠線を消す */
+    background: transparent; /* 背景の灰色を消す */
+    color: #746a6a;
+  }
+  .modal-content {
+    display: block;}
+}
+  
+  .QandA-contents-wrapper {
+    color: #756b6b;
+    font-size: 1.6vw;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .Q-text {
+    background-color: #e5c5ba;
+    padding: 3%;
+    text-align: left;
+    margin: 0;
+  }
+  .A-text {
+    background-color: #f5f5f5;
+    padding: 3%;
+    text-align: left;
+    margin: 0;
+    line-height: 1.5;
+  }
+  @media(max-width:750px) {
+    .QandA-contents-wrapper {
+      font-size: 3vw;
+    }
+  }
+  .store-info {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .store-info-sp {
+    display: none;
+  }
+  .google-map iframe {
+    width: 80%;
+    height: 340px;
+    display: block;
+    margin: 0 auto;
+  }
+  .reservation-form {
+    margin: 0 auto;
+  }
+  .check-form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin: 70px auto 30px auto;
+    font-size: 1.6vw;
+    line-height: 1.4;
+  }
+  .reservation-form {
+    width: 80%;
+    margin: 30px auto 145px;
+    font-size: 1.6vw;
+  }
+  .form-contents {
+    width: 200px;
+  }
+  .inquiry-form {
+    line-height: 1.5;
+  }
+  .form-input-area {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    font-size: 1.6vw;
+    margin-top: 5px;
+  }
+  .inquiry-form__submit {
+    margin: 30px auto;
+    display: block;
+    width: 180px;
+    font-size: 1.8vw;
+  }
+  .inquiry-form__privacy-link {
+    color: #212529;
+  }
+  .form-sub-title {
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    font-family: "Savoye LET";
+    font-size: 72px;
+    color: #a49f9f;
+    margin: 0;
+    opacity: 0.2;
+    font-style: oblique;
+    display: inline-block;
+    transform: rotate(-20deg);
+    left: -40%;
+  }
+  @media(max-width: 750px) {
+    .google-map iframe {
+      height: 90%;
+    }
+    .check-form, .reservation-form, .form-input-area {
+      font-size: 3vw;
+      color: #756b6b;
+    }
+    .inquiry-form__submit {
+      width: 40% !important;
+      font-size: 3vw;
+    }
+    .inquiry-form p {
+      padding: 5px;
+      text-align: left;
+    }
+    .form-contents label {
+      font-size: 3vw;
+    }
+    .store-info {
+      display: none;
+    }
+    .store-info-sp {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    .form-sub-title {
+      font-size: 8.5vw;
+    }
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0); /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    }
+    .modal-content {
+      background-color: #000;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .close:hover, .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+.mySlides {display: none}
+img {vertical-align: middle;}
+section {
+    position: relative;
+}
+.slideshow-pager {
+    position: absolute;
+    bottom: 20px;
+    /* top: 100%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    webkit-transform: translate(-50%, -50%);
+    ms-transform: translate(-50%, -50%);
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

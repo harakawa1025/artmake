@@ -1,0 +1,348 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /* 16px * 62.5% = 10px */
+  width: 100%;
+}
+body {
+  color: #333; /* RGB */
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 2.4rem;
+  margin: 0;
+}
+a:hover {
+  opacity: 0.5;
+}
+.none {
+  display: none;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.header {
+  background-color: #cfc0aa;
+  opacity: 0.7;
+  color: #fff;
+  width: 100%;
+}
+.header-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 8vw;
+}
+.header-content-wrapper h1 {
+  font-family: "Zapfino";
+  font-size: 2.2vw;
+  margin-top: 24px;
+}
+.header-content-wrapper ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.6vw;
+}
+.footer {
+  background-color: #cab9a1;
+  width: 100%;
+  padding: 80px 17vw 0;
+}
+.footer-contents-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left, .footer-right {
+  font-size: 20px;
+  color: #fff;
+}
+.footer-left h2 {
+  color: #fff;
+  font-family: "Zapfino";
+  font-size: 1.2em;
+  padding-top: 60px;
+  display: block;
+}
+.footer-left p {
+  text-align: center;
+  font-size: 3vw;
+}
+.footer-right nav {
+  padding-bottom: 20px;
+  font-size: 2vw;
+}
+.footer-right ul {
+  padding: 0;
+}
+.footer-right li {
+  line-height: 1.5;
+}
+.footer-right a {
+  font-size: 2vw;
+}
+.sns-links img {
+  padding-right: 10px;
+  width: 20%;
+}
+.footer__copy-right {
+  font-weight: 400;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+}
+#nav, #hamburger {
+  display: none;
+}
+.section-top__button-content {
+  position: fixed;
+  top: 350px;
+  right: 0;
+  border: none;
+  font-size: 2vw;
+  background-color: #f0bcb5;
+  padding: 2%;
+  color: #fff;
+   display: inline-flex;
+ z-index: 1000;
+  opacity: 1;
+  border-radius: 10px 0 0 10px;
+ 
+}
+.section-top__button{
+    display: flex;
+    writing-mode: vertical-rl;
+    align-items: center;
+    color: #fff;
+   opacity: 1;
+}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+user agent stylesheet button {
+  appearance: auto;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+body {
+  color: #333;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 2.4rem;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  width: 100%;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+user agent stylesheet button {
+  appearance: auto;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+body {
+  color: #333;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-weight: 500;
+  font-size: 1.6em;
+  line-height: 2.4rem;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  width: 100%;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+@media(max-width: 750px) {
+  .header-content-wrapper {
+    height: 48px;
+  }
+  .header-content-wrapper h1 {
+    white-space: nowrap;
+    padding: 18px;
+    margin-top: 15px;
+  }
+  .header-content-wrapper ul {
+    display: none;
+  }
+  .footer {
+    height: auto;
+    padding: 10%;
+  }
+  .footer-contents-wrapper {
+    display: contents;
+    text-align: center;
+  }
+  .footer-right nav {
+    padding-bottom: 5%;
+    padding-top: 2%;
+  }
+  .sns-links img {
+    width: 10%;
+  }
+  .footer__copy-right {
+    font-size: 3vw;
+    padding: 0;
+    padding-top: 5%;
+  }
+  
+  #nav {
+    position: fixed;
+    height: 100vh;
+    width: 70%;
+    right: -70%;
+    top: 0;
+    background: #ffffff;
+    transition: .7s;
+    display: block;
+  }
+  #nav ul {
+    padding: 20vw 5vw;
+  }
+  #nav ul li {
+    list-style-type: none;
+    font-size: 20px;
+  }
+  #nav a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 15px;
+    padding: 15px;
+    transition: .5s;
+    text-align: center;
+  }
+  #nav li a:hover {
+    color: #ffffff;
+    background: #cd5c5c;
+    border-bottom: none;
+  }
+  #hamburger {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    width: 40px;
+    height: 28px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .inner_line {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #ffffff;
+    transition: 1s;
+    border-radius: 4px;
+  }
+  #line1 {
+    top: 0;
+  }
+  #line2 {
+    top: 13px;
+  }
+  #line3 {
+    bottom: 0px;
+  }
+  .line_1 {
+    top: 0;
+  }
+  .line_3 {
+    bottom: 0px;
+  }
+  h1, h2 {
+    text-align: center;
+    color: #ffffff;
+  }
+  h2 {
+    display: none;
+  }
+  p {
+    text-align: center;
+  }
+  .in {
+    right: 0vw !important;
+    transform: translateX(0%);
+  }
+  .line_1, .line_2, .line_3 {
+    background: #000000;
+  }
+  .line_1 {
+    transform: translateY(20px) rotate(-45deg);
+    top: 0;
+  }
+  .line_2 {
+    opacity: 0;
+  }
+  .line_3 {
+    transform: translateY(-20px) rotate(45deg);
+    bottom: -15px !important;
+  }
+}
